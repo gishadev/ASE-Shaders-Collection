@@ -105,6 +105,6 @@ Material:
     - _Specular: 0.02
     - _WorldtoObjectSpace: 0
     - _WorldtoObjectSwitch: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors: []
   m_BuildTextureStacks: []
