@@ -158,10 +158,11 @@ Material:
     - _Displacement: 0.15
     - _DstBlend: 0
     - _EmissionIntensity: 1
-    - _Float0: 0.17602775
+    - _Float0: 15
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HeightMask: 5
     - _HighlightOffset: -0.93505
     - _HighlightSoftness: 0
     - _MainMetallic: 0
@@ -169,14 +170,17 @@ Material:
     - _Metallic: 0
     - _MinLineWidth: 0.05
     - _Mode: 0
-    - _NoiseScale: 1.5
+    - _MoveableHeight: 20
+    - _NoiseScale: 20
     - _OcclusionStrength: 1
     - _OpacityMask: -0.65
     - _Parallax: 0.02
+    - _PlayerPushStrength: 3
+    - _PlayerRadius: 0.2
     - _ShadowOffset: 0.15
     - _ShadowSmothness: 0.1
     - _ShadowSoftness: 0
-    - _Smoothness: 0.15
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SnowControl: 3
     - _SnowHeight: 0.025
@@ -184,7 +188,12 @@ Material:
     - _SrcBlend: 1
     - _UVLerp: 0.2
     - _UVScale: 3.5
+    - _UVScrollSpeed: 0.1
     - _UVSec: 0
+    - _WindDist: 0.007
+    - _WindSpeed: 2
+    - _WindStrength: 0.1
+    - _WindWaveScale: 5
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -192,8 +201,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighlightColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0}
     - _HighlightTint: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0}
-    - _MainTint: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 0}
+    - _MainTint: {r: 0.10720008, g: 0.6886792, b: 0.17965429, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _PlayerPosition: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowTint: {r: 0.5707547, g: 0.7568611, b: 1, a: 0}
     - _UVMoveDirection: {r: 0.05, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
